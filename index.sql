@@ -24,3 +24,8 @@ SELECT *
 FROM `exams` 
 WHERE `hour` > '14%'
 AND `date` = '2020-06-20';
+
+-- 6
+SELECT * 
+FROM `degrees` 
+WHERE `level` = 'magistrale';
