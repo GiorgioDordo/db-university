@@ -48,3 +48,7 @@ UPDATE `teachers`
 SET office_number = 300 
 WHERE name = 'Pietro' 
 AND surname = 'Rizzo';
+
+-- 11
+DELETE FROM `students` 
+WHERE registration_number = 23;
