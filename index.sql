@@ -38,3 +38,7 @@ FROM `departments`;
 SELECT * 
 FROM `teachers` 
 WHERE `phone` IS NULL;
+
+-- 9
+INSERT INTO `students`(degree_id, name, surname, date_of_birth, fiscal_code, enrolment_date, registration_number,email) 
+VALUES (20, 'Dordo', 'Dekanovic', '1998-04-11', '124124124', '2016-02-20', '23', 'df@gmail.it');
