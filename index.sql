@@ -33,3 +33,8 @@ WHERE `level` = 'magistrale';
 -- 7
 SELECT COUNT(*) 
 FROM `departments`;
+
+-- 8
+SELECT * 
+FROM `teachers` 
+WHERE `phone` IS NULL;
