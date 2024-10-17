@@ -34,7 +34,7 @@ SELECT COUNT(*)
 FROM `departments`;
 
 -- 8
-SELECT * 
+SELECT * COUNT(`id`)
 FROM `teachers` 
 WHERE `phone` IS NULL;
 
