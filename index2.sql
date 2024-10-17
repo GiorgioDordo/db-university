@@ -4,6 +4,13 @@ COUNT(*) AS 'iscritti'
 FROM `students`
 GROUP BY YEAR(`enrolment_date`)  
 ORDER BY `iscritti` ASC
+
 --  2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio
+SELECT (`office_address`) AS 'address',
+COUNT(id) AS 'teachers'
+FROM `teachers`
+GROUP BY `address`
+ORDER BY `teachers`;
+
 --  3. Calcolare la media dei voti di ogni appello d'esame
 --  4. Contare quanti corsi di laurea ci sono per ogni dipartimento
