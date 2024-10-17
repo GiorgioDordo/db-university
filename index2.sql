@@ -23,5 +23,5 @@ ORDER BY `exam`;
 SELECT `department_id` AS 'departments',
 COUNT(id) AS 'courses'
 FROM `degrees`
-GROUP BY `departments`
-ORDER BY `courses`;
+GROUP BY `departments`  
+ORDER BY `departments` ASC
